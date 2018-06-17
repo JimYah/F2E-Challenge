@@ -33,6 +33,11 @@ export default {
 </script>
 
 <style>
+*, *:focus {
+  box-sizing: border-box;
+  outline: none;
+}
+
 .container {
   min-height: 100vh;
   display: flex;
