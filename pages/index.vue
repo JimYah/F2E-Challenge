@@ -25,9 +25,14 @@ export default {
           link: 'https://jimyah.github.io/vue-todo/'
         },
         {
-          title: 'Week 1 - Filter',
+          title: 'Week 2 - Filter',
           image: require('~/static/f2e-challenge-filter.png'),
           link: '/travel'
+        },
+        {
+          title: 'Week 3 - Admin',
+          image: require('~/static/f2e-challenge-admin.png'),
+          link: '/admin'
         }
       ]
     }
@@ -64,9 +69,9 @@ img
     width: 100%
     margin-top: 60px
     &__list
-      width: 33%
-      &:nth-child(2n+2)
-        margin: 0 1%
+      width: 32%
+      &:nth-child(3n+2)
+        margin: 0 2%
       a
         text-decoration: none
         color: #4fc08d
